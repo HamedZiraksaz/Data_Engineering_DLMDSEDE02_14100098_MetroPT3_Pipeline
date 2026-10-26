@@ -1,0 +1,19 @@
+# Keep the large CSV file out of Git. Download it separately as explained
+# in README.md and place it in data/raw/.
+data/raw/*.csv
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Spark
+metastore_db/
+derby.log
+spark-warehouse/
+
+# Docker / OS
+.DS_Store
+*.log
